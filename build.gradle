@@ -1,4 +1,7 @@
 buildscript {
+    dependencies {
+        classpath "com.twitter.compose.rules:ktlint:0.0.18"
+    }
     ext {
         compose_version = '1.2.0'
     }
